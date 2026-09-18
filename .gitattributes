@@ -1,0 +1,4 @@
+# Large synthetic test-data files are tracked with Git LFS instead of
+# being stored directly in git history. Run `git lfs install` once,
+# then `git lfs track` is already configured below.
+test-data/*.bin filter=lfs diff=lfs merge=lfs -text
